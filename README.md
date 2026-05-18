@@ -13,6 +13,7 @@ SRWS-PSG ハンズオンカフェ (2026-06-24) 用のデモリポジトリです
 ```
 .
 ├── README.md              ← このファイル
+├── SETUP.md               ← 事前準備の手順 (当日までに済ませる)
 ├── .gitignore             ← Part 1 で編集する (ビフォー状態)
 ├── .claude/
 │   └── skills/
@@ -25,11 +26,14 @@ SRWS-PSG ハンズオンカフェ (2026-06-24) 用のデモリポジトリです
 
 ## 事前準備
 
-以下がすべて済んでいることを確認してください:
+詳細は **[SETUP.md](SETUP.md)** を参照してください。
 
-- [ ] Antigravity が起動する (Claude Code / Codex 拡張でも可)
-- [ ] GitHub に push できる (PAT またはブラウザ認証)
-- [ ] ブラウザ版 Claude にログインできる
-- [ ] Zenodo Sandbox ([sandbox.zenodo.org](https://sandbox.zenodo.org/)) にログインできる
+clone したらまず Antigravity (または Claude Code / Codex) でこのフォルダを開き、AI にこう頼んでください:
 
-> 環境チェックは Antigravity で `/check-handson-env` と入力すると自動で確認できます。
+```text
+このリポジトリの check-handson-env スキルを使って、ハンズオンの事前準備を
+チェックしてください。できていない項目があれば、その場でセットアップまで
+進めてください。
+```
+
+→ GitHub 認証 / ブラウザ版 Claude / Zenodo Sandbox / AI ツール動作の4点を AI が順に確認し、足りなければセットアップ手順まで案内してくれます。
