@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+title: "ハンズオンカフェ: リポジトリ運用と Skills"
+abstract: "SRWS-PSG ハンズオンカフェ (2026-06-24) 用のデモリポジトリ。リポジトリ運用と Claude Code Skills の体験教材。"
+type: software
+authors:
+  - family-names: "youkiti"
+    given-names: ""
+    # orcid: "https://orcid.org/0000-0000-0000-0000"  # お持ちなら記入してください
+repository-code: "https://github.com/youkiti/repo-and-skills-handson"
+license: CC-BY-4.0
+keywords:
+  - systematic-review
+  - SRWS-PSG
+  - handson
+  - claude-code

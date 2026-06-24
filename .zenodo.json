@@ -1,0 +1,18 @@
+{
+  "title": "ハンズオンカフェ: リポジトリ運用と Skills",
+  "description": "SRWS-PSG ハンズオンカフェ (2026-06-24) 用のデモリポジトリ。リポジトリ運用と Claude Code Skills の体験教材。",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "CC-BY-4.0",
+  "creators": [
+    {
+      "name": "youkiti"
+    }
+  ],
+  "keywords": [
+    "systematic-review",
+    "SRWS-PSG",
+    "handson",
+    "claude-code"
+  ]
+}
